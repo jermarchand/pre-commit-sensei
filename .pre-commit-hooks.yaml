@@ -1,0 +1,18 @@
+---
+- id: check-slides
+  name: Check Sensei Slides
+  description: Check Sensei Slides
+  entry: check-slides
+  language: python
+  types_or: [markdown]
+- id: check-toc
+  name: Check Sensei toc
+  description: Check Sensei toc
+  entry: check-toc
+  language: python
+  types_or: [json]
+- id: check-workbook
+  name: Check Sensei workbook
+  description: Check Sensei workbook
+  entry: check-workbook
+  language: python

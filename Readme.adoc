@@ -1,0 +1,18 @@
+= Pre-commit-sensei
+
+A basic pre-commit hook for https://github.com/Zenika/sensei[@zenika/sensei] framework.
+
+
+## Using the pre-commit hook
+
+Install the pre-commit framework, and add the following to the .pre-commit-config.yaml file:
+
+[source,yaml]
+--
+- repo: https://github.com/jermarchand/pre-commit-sensei
+  rev: main
+  hooks:
+   - id: check-slides
+   - id: check-toc
+   - id: check-workbook
+--
